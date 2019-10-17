@@ -14,6 +14,7 @@ body{
 	letter-spacing: .1em;
 }
 
+/*Necessário alterar*/
 .btn:hover {
 	color: #fff;
 	border-color: #fff;
@@ -32,11 +33,11 @@ body{
 	z-index: 10px;
 }
 
-/*Contato suporte*/
+/*Contato suporte Viaband*/
 .cont-contact{
 	font-family: 'Open Sans', sans-serif !important;
 	color: white;
-	background: #E98B58; /*223 83 11*/
+	background: #E98B58; /*Laranja*/
 	text-align: center;
 	height: 40px;
 	width: 100%;
@@ -71,7 +72,7 @@ body{
 }
 
 .header_menu ul li a:hover {
-	color: #E98B58;
+	color: #E98B58; /*Laranja*/
 }
 
 .introduction {
@@ -83,12 +84,12 @@ body{
 
 
 /*Efeito de afastamento*/
-.caracteristicas h2:before, .caracteristicas h2:after {
+.caracteristicas h2:after {
 	content: "";
 	display: block;
-	width: 120px;
+	width: 150px;
 	height: 3px;
-	background-color: #DF530B;
+	background-color: #E98B58; /*FORA DO PADRÃO - ALTERAR*/
 	margin: 10px auto;
 }
 
@@ -96,7 +97,7 @@ body{
 .caracteristicas {
 	text-align: center;
 	font-family: 'Open Sans', sans-serif !important;
-	color: #DF530B;
+	color: #E98B58; /*FORA DO PADRÃO - ALTERAR*/
 	margin: 20px auto 20px auto;
 }
 
@@ -149,23 +150,25 @@ body{
 	background: #E98B58; /*Laranja*/
 	color: #fff;
 	padding: 20px 0;
+	margin-top: 100px;
 }
 
 .footer h3 {
 	font-size: 18px;
 	line-height: 25px;
-	color: #fec63e;
+	color: whitesmoke;
 	text-transform: uppercase;
 	letter-spacing: .1em;
 	font-weight: bold;
 }
 
+/*Efeito Afastamento*/
 .footer h3:after {
 	content: "";
 	display: block;
 	width: 60px;
 	height: 3px;
-	background: #fec63e;
+	background: whitesmoke; /*Tem q ser o azul*/
 	margin: 6px 0 12px 0;
 }
 
