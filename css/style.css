@@ -1,0 +1,153 @@
+/*Estilos Gerais*/
+body{
+	font-family: 'Open Sans', sans-serif, helvetica !important;
+}
+
+.btn {
+	border: 3px solid #fec63e;
+	padding: 10px 30px;
+	color: #fec63e;
+	font-size: 14px;
+	line-height: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+	letter-spacing: .1em;
+}
+
+.btn:hover {
+	color: #fff;
+	border-color: #fff;
+}
+
+.btn.btn-preto:hover {
+	color: #000;
+	border-color: #000;
+}
+
+/*Estilos Específicos*/
+.header{
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 10px;
+}
+
+/*Contato suporte*/
+.cont-contact{
+	font-family: 'Open Sans', sans-serif !important;
+	color: white;
+	background: #E98B58; /*223 83 11*/
+	text-align: center;
+	height: 40px;
+	width: 100%;
+	padding: 10px 0;
+	font-size: 14px;
+	line-height: 20px;
+}
+
+.menu div {
+	margin-top: 45px;
+	height: 100%;
+}
+
+.header_menu {
+	text-align: right;	
+}
+
+.header_menu ul li {
+	display: inline-block;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+
+.header_menu ul li a {
+	color: #428CC0; /*Azul Padrão Hexa*/
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: .1em;
+	font-size: 14px;
+	line-height: 20px;
+	padding: 10px 0;
+}
+
+.header_menu ul li a:hover {
+	color: #E98B58;
+}
+
+.introduction {
+	height: 428px;
+	width: 100%;
+	background: url("../img/Slide-top1_19092019.jpg") no-repeat center;
+	background-size: cover;
+}
+
+
+/*Efeito de afastamento*/
+.caracteristicas h2:before, .caracteristicas h2:after {
+	content: "";
+	display: block;
+	width: 120px;
+	height: 3px;
+	background-color: #DF530B;
+	margin: 10px auto;
+}
+
+/*Acesse a internet	de forma Rápida, Prática e Segura!*/
+.caracteristicas {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif !important;
+	color: #DF530B;
+	margin: 20px auto 20px auto;
+}
+
+.caracteristicas h2 {
+	font-size: 18px;
+}
+
+/*Inicio dos blocos*/
+.caract-icone {
+	padding: 20px 0 20px 0;
+	background: #E98B58; /*Padrão laranja*/
+	border-left-width: 20px;
+	border-left-color: blue;
+	text-align: center;
+	height: 250PX;
+}
+
+.conteiner3blocks{
+	align-items: center;
+}
+
+.caract-lista h3{
+
+}
+
+.call {
+	padding-top: 40px;
+	text-align: center;
+	clear: both;
+}
+
+.call p{
+	margin-bottom: 20px;
+}
+
+.div1-soon {
+	background: #E98B58; 
+	width: : 100%;
+}
+
+.Soon {
+	height: 492px;
+	width: 100%;
+	background: url("../img/Banner_C_Soon.jpg") no-repeat center;
+	background-size: cover;
+}
+
+.footer {
+		width: 100%;
+		background: #E98B58; 
+}
+
+
+/**/
